@@ -1,0 +1,51 @@
+{
+  "utilisateurs": [
+    {
+      "id": 1,
+      "pseudo": "Alain",
+      "email": "alain@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "id": 2,
+      "pseudo": "Béatrice",
+      "email": "bea@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "contenu": "lorem ipsum",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "pseudo": "Alain",
+      "likes": [
+        {
+          "id": 1,
+          "userId": 2,
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        }
+      ],
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "userId": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "userId": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        }
+      ]
+    }
+  ]
+}
